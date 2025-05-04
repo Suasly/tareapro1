@@ -2,6 +2,7 @@
     float: left;
     width: 7em;
     height: 5em;
+    mix-blend-mode: multiply;
 }
 *{
     margin: 0;
