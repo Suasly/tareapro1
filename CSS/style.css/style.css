@@ -96,7 +96,6 @@ button{
     transform: translate(0%);
     width: 50%;
     transition: 0.5s;
-    
 }
 
 .colocar_x{
@@ -115,18 +114,79 @@ button{
         width: 100%;
         height: 100vh;
         font-size: 1.6rem;
+        position: absolute;
+    }
+    .p4  {
+        width: 100%;
+        height: 50% ;
+    }
+    
+    #p2{
+        width: 100%;
+        height: 50% ;
+    }
+    #p9{
+        width: 100%;
+        height: 50% ;
+    }
+    #p3{
+        width: 100%;
+        height: 50% ;
     }
 
+}
+.p2{
+    transition: transform 0.3s ease;
+    width: 30em;
+    height: 20em;
 }
 .p1{
     width: 30em;
     height: 20em;
+    transform: scale(0.8);
 }
-.p2{
-    width: 30em;
-    height: 20em;
+.p2:hover{
+    
+    transform: scale(0.8);
+
 }
 .p3{
+    transition: transform 0.3s ease;
+
     width: 40em;
     height: 40em;
+}
+.p3:hover{
+    transform: scale(0.8);
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: chocolate;
+}
+.m1{
+    width: 20em;
+    height: 19em;
+    transition: transform 0.3s ease;
+
+}
+.z1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    transition: transform 0.3s ease;
+
+}
+.m1:hover{
+    transform: scale(0.8);
+ 
+}
+.z1:hover{
+    transform: scale(0.8);
+ 
+}
+.t1{
+    background-color: rgba(255, 255, 255, 0.795);
+    border-color: rgba(165, 42, 42, 0);
 }
